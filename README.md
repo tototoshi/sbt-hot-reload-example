@@ -1,6 +1,6 @@
 # sbt-hot-reload-example
 
-This project shows how to implement Hot Deploy by sbt like Play framework.
+This project shows how to implement Hot Reload by sbt like Play framework.
 
 ## Demo
 
