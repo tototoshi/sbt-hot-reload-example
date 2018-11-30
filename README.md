@@ -18,7 +18,7 @@ $ sbt run
 At the same time, start another sbt and the compilation loop.
 
 ```
-$ sbt ~compile
+$ sbt '~compile'
 ```
 
 Next, access http://localhost:8080 and confirm that "Hello, World!" is displayed. If you change the message by editing app/src/main/scala/com/github/tototoshi/hotreload/app/Application.scala, you can see the change is shown without restarting the server.
