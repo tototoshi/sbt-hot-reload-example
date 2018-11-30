@@ -1,4 +1,4 @@
-package com.github.tototoshi.hotreload.plugin.TomcatPlugin
+package com.github.tototoshi.hotreload.plugin
 
 import java.net.{URL, URLClassLoader}
 
