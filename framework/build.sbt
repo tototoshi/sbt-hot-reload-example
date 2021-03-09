@@ -38,7 +38,7 @@ lazy val plugin = project
     name := "hot-reload-example-sbt-plugin",
     sbtPlugin := true
   )
-  .dependsOn(buildLink, server)
+  .dependsOn(buildLink, server, framework)
 
 lazy val root = project
   .in(file("."))
