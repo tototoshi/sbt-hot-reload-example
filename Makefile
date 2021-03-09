@@ -6,7 +6,7 @@ build_framework:
 build_app:
 	cd app && sbt test:compile
 
-build_all: clean build_framework build_app
+build_all: build_framework build_app
 	
 watch:
 	cd app && sbt '~compile'
