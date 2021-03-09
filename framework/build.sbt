@@ -1,5 +1,8 @@
 lazy val commonSettings = Seq(
-  organization := "com.github.tototoshi"
+  organization := "com.github.tototoshi",
+  // https://github.com/scala/bug/issues/11832#issuecomment-578517653
+  scalaVersion := "2.12.13"
+
 )
 
 lazy val buildLink = project
@@ -15,7 +18,7 @@ lazy val framework = project
   .settings(
     name := "hot-reload-example-servlet",
     libraryDependencies ++= Seq(
-      "javax.servlet" % "javax.servlet-api" % "3.1.0"
+      "javax.servlet" % "javax.servlet-api" % "4.0.1"
     )
   )
   .dependsOn(buildLink)
@@ -26,8 +29,8 @@ lazy val server = project
   .settings(
     name := "hot-reload-example-server",
     libraryDependencies ++= Seq(
-      "javax.servlet" % "javax.servlet-api" % "3.1.0",
-      "org.apache.tomcat.embed" % "tomcat-embed-jasper" % "9.0.8"
+      "javax.servlet" % "javax.servlet-api" % "4.0.1",
+      "org.apache.tomcat.embed" % "tomcat-embed-jasper" % "9.0.43"
     )
   )
 
