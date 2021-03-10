@@ -1,6 +1,6 @@
 package com.github.tototoshi.hotreload.app
 
-import javax.servlet.http.{HttpServletRequest, HttpServletResponse}
+import jakarta.servlet.http.{HttpServletRequest, HttpServletResponse}
 
 class Application extends com.github.tototoshi.hotreload.servlet.Application {
 

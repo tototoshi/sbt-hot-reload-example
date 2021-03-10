@@ -1,6 +1,6 @@
 package com.github.tototoshi.hotreload.servlet
 
-import javax.servlet.http.{HttpServletRequest, HttpServletResponse}
+import jakarta.servlet.http.{HttpServletRequest, HttpServletResponse}
 
 trait Application {
 

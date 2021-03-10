@@ -16,3 +16,4 @@ run:
 clean:
 	cd framework && sbt clean
 	cd app && sbt clean
+	cd app && rm -rf project/target
