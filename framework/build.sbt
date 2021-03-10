@@ -18,7 +18,7 @@ lazy val framework = project
   .settings(
     name := "hot-reload-example-servlet",
     libraryDependencies ++= Seq(
-      "javax.servlet" % "javax.servlet-api" % "4.0.1"
+      "jakarta.servlet" % "jakarta.servlet-api" % "5.0.0" % "provided",
     )
   )
   .dependsOn(buildLink)

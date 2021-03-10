@@ -1,9 +1,9 @@
 package com.github.tototoshi.hotreload.server
 
+import jakarta.servlet.{ServletContainerInitializer, ServletContext}
+
 import java.io.File
 import java.util
-
-import javax.servlet.{ServletContainerInitializer, ServletContext}
 import org.apache.catalina.core.StandardContext
 import org.apache.catalina.startup.Tomcat
 
