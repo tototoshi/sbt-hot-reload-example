@@ -30,7 +30,7 @@ lazy val server = project
     name := "hot-reload-example-server",
     libraryDependencies ++= Seq(
       "javax.servlet" % "javax.servlet-api" % "4.0.1",
-      "org.apache.tomcat.embed" % "tomcat-embed-jasper" % "10.0.6"
+      "org.apache.tomcat.embed" % "tomcat-embed-jasper" % "10.0.7"
     )
   )
 
