@@ -1,7 +1,7 @@
 lazy val commonSettings = Seq(
   organization := "com.github.tototoshi",
   // https://github.com/scala/bug/issues/11832#issuecomment-578517653
-  scalaVersion := "2.12.13"
+  scalaVersion := "2.12.15"
 
 )
 
